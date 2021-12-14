@@ -1,0 +1,190 @@
+body {
+    background-color: black;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.nav-boja{
+    background-color: black !important;
+}
+
+.dugme-boja{
+    background-color: white;
+}
+
+.a-tekst{
+    color: white !important;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.hero-slike{
+    width: 100%;
+    height: 650px;
+}
+
+.slika{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.slika-tekst{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.malo-dugme{
+    background-color: white;
+    border-radius: 0px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.slika-logo{
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ikonice{
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.footer-tekst{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+.div-boja{
+    background-color: #085394;    ;
+    margin-bottom: 20px;
+}
+
+.naslovZ{
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.zn-slike{
+    width: 100%;
+    height: 300px;
+}
+
+.zn-tekst{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.zn-razmak{
+    margin-bottom: 20px;
+}
+
+.zn-dugme{
+    border-radius: 0px;
+    color: black;
+    background-color: white;
+    padding: 20px 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.kn-tekst{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.kn-polje{
+    margin-bottom: 50px;
+    border-radius: 0px;
+}
+
+.kn-viseredno{
+    width: 100%;
+}
+
+.kn-dugme{
+    margin-bottom: 50px;
+    border-radius: 0px;
+    font-size: 25px;
+    padding: 25px 25px;
+    background-color: #f1c232;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .tablet-hero{
+        height: 450px;
+    }
+
+    .tablet-slika{
+        height: 300px;
+    }
+
+    .tablet-ikonice{
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .tablet-logo{
+        height: 200px;
+    }
+
+    .tablet-ram{
+        border: 2px white solid;
+    }
+
+    .tablet-donji-okvir{
+        border-bottom: none;
+    }
+  }
+
+@media (max-width: 768px) {
+    .mobile-hero{
+        height: 350px;
+    }
+
+    .mobile-slika{
+        height: 250px;
+    }
+
+    .mobile-ikonice{
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .mobile-logo{
+        height: 150px;
+    }
+
+    .mobile-ram{
+        border: 2px white solid;
+    }
+
+    .mobile-donji-okvir{
+        border-bottom: none;
+    }
+}
